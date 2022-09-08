@@ -1,0 +1,39 @@
+.relatedImageBase {
+  animation: relatedImageBaseAnimation 3s linear 0s normal forwards;
+}
+
+@keyframes relatedImageBaseAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.relatedImageDisappearBase {
+  animation: relatedImageDisappearBaseAnimation 0.5s linear 0s normal forwards;
+}
+
+@keyframes relatedImageDisappearBaseAnimation {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.last_block {
+  animation: lastRelatedImage 1s linear 0s normal forwards;
+}
+
+@keyframes lastRelatedImage {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
